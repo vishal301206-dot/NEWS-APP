@@ -1,18 +1,27 @@
 # 📰 Daily News App
 
-A simple and responsive News App built using HTML, CSS, and JavaScript.
+A responsive News App built using **HTML, CSS, JavaScript, and NewsAPI.org**.
 
-This project allows users to search for recent news articles by entering a city name. It fetches news data using the NewsAPI.org API.
+The application allows users to search for recent news articles by entering a city name. It displays news headlines, descriptions, source information, publication dates, and article links.
 
-## 🚀 Features
+## 🚀 Live Demo
+
+[Open Daily News App](https://vishal301206-dot.github.io/NEWS-APP/)
+
+## 📸 Project Preview
+
+![Daily News App Preview](news-app-preview.png)
+
+## ✨ Features
 
 - Search news by city name
-- Fetch recent news from the last 7 days
-- Display up to 20 news articles
-- Show news images and descriptions
-- Display news source and publication date
+- Fetch news articles using NewsAPI.org
+- Display article headlines and descriptions
+- Show news images and sources
+- Display publication dates
 - Read More links to original articles
 - Responsive user interface
+- Loading and error messages
 
 ## 🛠️ Technologies Used
 
@@ -20,27 +29,54 @@ This project allows users to search for recent news articles by entering a city 
 - CSS3
 - JavaScript
 - NewsAPI.org
+- GitHub Pages
 
-## 📸 Project Preview
+## 📂 Project Structure
 
-Add your project screenshot here.
+```text
+NEWS-APP/
+│
+├── index.html
+├── style.css
+├── script.js
+├── news-app-preview.png
+└── README.md
+```
 
-## ⚙️ How to Run
+## 💻 Run Locally
 
-1. Download or clone this repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` using Live Server.
-4. Enter your own NewsAPI key.
-5. Enter a city name and click Search News.
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Run `index.html` using Live Server.
+4. Enter your NewsAPI key and a city name.
+5. Click **Search News**.
 
-## 🔑 API Key Setup
+## 🔐 API Key & Security
 
-Get your API key from https://newsapi.org/
+This project uses NewsAPI.org to retrieve news articles.
 
-Do not upload your API key to GitHub.
+For local testing, enter your own API key in the application. Never upload API keys or secrets to a public repository.
 
-**Note:** The NewsAPI Developer plan has restrictions on browser requests and production use. This project is intended for learning and development.
+The public GitHub Pages version is a frontend demonstration. Live API requests may be restricted by the NewsAPI plan and browser security rules. A secure backend is needed for a production deployment.
+
+## 🎯 Learning Outcomes
+
+Through this project, I practised:
+
+- Working with REST APIs
+- Using JavaScript Fetch API and async/await
+- Handling JSON responses
+- DOM manipulation
+- Error handling
+- Creating responsive web pages
+- Hosting a project using GitHub Pages
 
 ## 👨‍💻 Author
 
-Created as a learning project to practice HTML, CSS, JavaScript, and API integration.
+**Vishal Kumar**
+
+GitHub: [vishal301206-dot](https://github.com/vishal301206-dot)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
