@@ -23,6 +23,14 @@ The application allows users to search for recent news articles by entering a ci
 - Responsive user interface
 - Loading and error messages
 
+## 📷 Screenshots
+
+### Homepage
+![News App Homepage](news-app-home.png)
+
+### News Search Results
+![News Search Results](news-app-results.png)
+
 ## 🛠️ Technologies Used
 
 - HTML5
