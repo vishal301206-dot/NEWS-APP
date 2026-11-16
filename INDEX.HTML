@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>📰 Daily News</h1>
+        <p>Your daily news, your location</p>
+    </header>
+
+    <main class="container">
+
+        <section class="search-section">
+            <h2>Find Recent News</h2>
+
+            <input
+                type="password"
+                id="apiKey"
+                placeholder="Enter your NewsAPI key"
+                autocomplete="off"
+            >
+
+            <input
+                type="text"
+                id="locationInput"
+                placeholder="Enter city (e.g. Kolkata)"
+            >
+
+            <button id="searchBtn">Search News</button>
+        </section>
+
+        <h2 id="heading">Latest News</h2>
+
+        <p id="message">Enter your API key and city to search news.</p>
+
+        <section id="newsContainer" class="news-container"></section>
+
+    </main>
+
+    <footer>
+        <p>News App | Learning Project</p>
+        <p>News data powered by <a href="https://newsapi.org/" target="_blank" rel="noopener">NewsAPI.org</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
